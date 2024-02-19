@@ -1,0 +1,36 @@
+.getOTP{
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.getOTP__mediumLabel{
+    font-size: 32px;
+}
+.getOTP__smallLabel{
+    font-size: 20px;
+}
+.getOTP__inputSquares{
+    display: flex;
+    width: 68vw;
+    justify-content: space-between;
+}
+.getOTP__nextButton{
+    font-size: 20px;
+}
+.getOTP__tip{
+    font-size: 11px;
+}
+.getOTP__resend{
+    font-size: 14px;
+}
+.getOTP__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 33vh;
+    justify-content: space-around;
+}

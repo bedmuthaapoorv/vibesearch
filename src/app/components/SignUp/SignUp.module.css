@@ -1,0 +1,29 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 98vh;
+    width: 100vw;
+}
+.signup__title{
+    width: 79vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.title__content{
+    font-size: 24px;
+}
+.signup__form{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.signup__signup{
+    width: 79vw;
+    background-color: black;
+    color: white;
+    height: 7vh;
+}
+

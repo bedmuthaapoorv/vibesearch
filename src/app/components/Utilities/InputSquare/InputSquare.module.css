@@ -1,0 +1,10 @@
+.inputSquare{
+    width: 5.7vh;
+    height: 5.7vh;
+    border: solid;
+    border-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

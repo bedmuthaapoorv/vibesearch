@@ -1,0 +1,49 @@
+.getStarted{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 98vh;
+}
+.getStarted__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getStarted__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getStarted__buttonsFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.getStartedbuttons {
+    width: 42vw;
+    height: 6.1vh;
+}
+
+.getStarted__loginButton {
+    background-color: white;
+    color: #000000;
+}
+
+.getStarted__getStartedButton {
+    background-color: #000000;
+    color: white;
+}
+
+.getStarted__termsAndConditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.termsAndConditions__content{
+    font-size: 11px;
+    color: #8F8A8A;
+    width: 60vw;
+    text-align: center;
+}

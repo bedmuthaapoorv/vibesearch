@@ -1,0 +1,20 @@
+.formElement__label {
+    font-size: 16px;
+}
+
+.input__element {
+    background: #E7E7E7;
+    width: 59vw;
+    height: 7vh;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 9.7vw;
+    padding-right: 9.7vw;
+}
+
+.formElement__tip {
+    font-size: 12px;
+    color: #6A6464;
+}
