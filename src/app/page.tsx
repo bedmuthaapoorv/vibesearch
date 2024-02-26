@@ -5,7 +5,8 @@ export default function Home() {
     <div>
       {/* {components.GetStarted()}  */}
       {/* {components.SignUp()} */}
-      {components.GetOTP()}
+      {/* {components.GetOTP()} */}
+      {components.HomeScreen()}
     </div>
   );
 }

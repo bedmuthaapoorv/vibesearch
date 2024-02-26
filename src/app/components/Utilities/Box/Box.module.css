@@ -1,0 +1,18 @@
+.box{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    height: 14vh;
+    border-radius: 7px;
+    align-items: center;
+}
+.box__boxImage{
+    width: 7vh;
+}
+.box__boxText{
+    color: white;
+    font-size: 9px;
+    width: 27vw;
+}

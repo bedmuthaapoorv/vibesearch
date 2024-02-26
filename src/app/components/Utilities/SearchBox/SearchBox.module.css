@@ -1,0 +1,21 @@
+.searchBox{
+    width: 90vw;
+    height: 6vh;
+    background-color: #E7E7E7;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchBox__search{
+    width: 60vw;
+    text-align: start;
+    overflow-x: scroll;
+}
+.searchBox__cameraImage{
+    width: 7.5vw;
+    height: fit-content;
+}
+.searchBox__go{
+    width: 3.73vh;
+}

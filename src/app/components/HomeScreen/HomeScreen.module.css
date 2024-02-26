@@ -1,0 +1,32 @@
+.homescreen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.homescreen__content{
+    display: flex;
+    flex-direction: column;
+    height:42vh;
+    width: 79vw;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.content__smallText{
+    font-size: 12px;
+    width:62vw;
+    text-align: center;
+}
+.content__suggestionBoxes{
+    width: 73vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.suggestionBoxes__row{
+    display: flex;
+    justify-content: space-between;
+}
