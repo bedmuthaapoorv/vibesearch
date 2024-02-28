@@ -6,7 +6,8 @@ export default function Home() {
       {/* {components.GetStarted()}  */}
       {/* {components.SignUp()} */}
       {/* {components.GetOTP()} */}
-      {components.HomeScreen()}
+      {/* {components.HomeScreen()} */}
+      <components.Camera></components.Camera>
     </div>
   );
 }

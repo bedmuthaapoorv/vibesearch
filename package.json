@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@eduardosmarcal/webcam-easy": "^2.0.3",
     "antd": "^5.14.1",
     "next": "14.1.0",
     "react": "^18",
     "react-bootstrap": "^2.10.1",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "webcam-easy": "^1.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",
