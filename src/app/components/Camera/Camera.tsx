@@ -1,16 +1,17 @@
 "use client"
-import Webcam from '@eduardosmarcal/webcam-easy';
+import Webcam, { FacingMode } from '@eduardosmarcal/webcam-easy';
 import { useEffect, useState } from 'react';
 export default function Camera() {
     let webcamElement:HTMLVideoElement;
     let canvasElement:HTMLCanvasElement;
     let snapSoundElement:HTMLAudioElement;
     let [webcam, setWebcam] = useState<Webcam | null>(null);
+    let [facingMode, setFacingMode]=useState<FacingMode>('user')
     useEffect(() => {
         webcamElement = document.getElementById('webcam') as HTMLVideoElement;
         canvasElement = document.getElementById('canvas') as HTMLCanvasElement;
         snapSoundElement = document.getElementById('snapSound') as HTMLAudioElement;
-        if(!webcam) setWebcam(new Webcam(webcamElement, 'user', canvasElement, snapSoundElement));
+        if(!webcam) setWebcam(new Webcam(webcamElement, facingMode, canvasElement, snapSoundElement));
     })
     
     
@@ -32,7 +33,13 @@ export default function Camera() {
     }
     function flipWebcam(){
         console.log("flipping webcam")
-        if (webcam != null) { webcam.flip(); }
+        if (webcam != null) { 
+            if(facingMode=='user'){
+                setFacingMode('environment')
+            }else{
+                setFacingMode('user')
+            }
+        }
     }
     //
     return <div>
