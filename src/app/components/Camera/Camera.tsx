@@ -34,6 +34,7 @@ export default function Camera() {
         console.log("flipping webcam")
         if (webcam != null) { webcam.flip(); }
     }
+    //
     return <div>
         <video id="webcam" autoPlay={true} playsInline={true} width="640" height="480"></video>
         <canvas id="canvas" className="d-none"></canvas>
